@@ -1,0 +1,7 @@
+all:
+    hosts:
+      web_servers:
+        - IP_ADRESA_CLIENT_NODE_1
+        - IP_ADRESA_CLIENT_NODE_2
+      db_servers:
+        - IP_ADRESA_CLIENT_NODE_3

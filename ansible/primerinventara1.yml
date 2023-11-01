@@ -1,0 +1,4 @@
+all:
+    hosts:
+      web_servers:  # web_servers je naziv grupe. Grupi možete dati i neki drugi naziv.
+        - IP_ADRESA_CLIENT_NODE  # Zamenite ovu adresu sa pravom IP adresom client node-a

@@ -1,0 +1,9 @@
+---
+- name: Kreiranje direktorijuma na ciljanom node-u
+  hosts: web_servers
+  become: yes
+  tasks:
+    - name: Kreiranje direktorijuma
+      file:
+        path: /path/to/remote/directory # Ovde postavite putanju na kojoj želite da kreirate direktorijum
+        state: directory
