@@ -12,8 +12,8 @@ sudo nano /etc/hosts
 
 Na kraju svake hosts datoteke dodajemo
 ~~~
-        IP_ADRESA_MASTER HOSTNAME_MASTER puppet
-        IP_ADRESA_AGENT HOSTNAME_AGENT
+IP_ADRESA_MASTER HOSTNAME_MASTER puppet
+IP_ADRESA_AGENT HOSTNAME_AGENT
 ~~~
 
 ## Podešavanje Puppet Servera
